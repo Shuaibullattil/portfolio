@@ -16,7 +16,7 @@ export default function Home() {
 
   return(
     <div className="flex justify-center items-center h-screen" style={{backgroundImage:`linear-gradient(to top right, black 40%, red, orange)`}}>
-      <div className="grid grid-cols-2 text-white">
+      <div className="grid grid-cols-2 text-white text-center">
         <h1 
           className="text-white font-extrabold text-6xl col-span-2 transition-opacity duration-1000"
           style={{ opacity }}
@@ -30,6 +30,8 @@ export default function Home() {
           <p>Full Stack Developer</p>
           <p>Full Stack Developer</p>
         </div>
+        <div className="flex col-span-2 justify-center  px-64 py-8"><p className="italic">I'm Shuaib Ullattil, a full-stack developer with a strong focus on building dynamic web applications using Next.js, FastAPI, and MongoDB. I also specialize in UI/UX design, crafting user-friendly and visually appealing interfaces. I am passionate about combining both development and design to create seamless, functional experiences for users.</p></div>
+        
       </div>
     </div>
   );
