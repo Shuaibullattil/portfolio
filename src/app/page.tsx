@@ -31,7 +31,7 @@ export default function Home() {
           <p>Full Stack Developer</p>
         </div>
         <div 
-          className="flex col-span-2 justify-center px-64 py-8 transition-opacity duration-1000"
+          className="flex col-span-2 justify-center px-8 py-8 transition-opacity duration-1000"
           style={{ opacity, transitionDelay: '600ms' }}
         >
           <p className="italic">I&apos;m Shuaib Ullattil, a full-stack developer with a strong focus on building dynamic web applications using Next.js, FastAPI, and MongoDB. I also specialize in UI/UX design, crafting user-friendly and visually appealing interfaces. I am passionate about combining both development and design to create seamless, functional experiences for users.</p>
