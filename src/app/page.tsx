@@ -5,7 +5,7 @@ export default function Home(){
   return(
     <div className="flex justify-center items-center h-screen bg-black">
       <div className="grid grid-cols-2 text-white">
-        <h1 className="text-white font-extrabold text-6xl col-span-2">Shuaib Ullattil</h1>
+        <h1 className="text-orange font-extrabold text-6xl col-span-2">Shuaib Ullattil</h1>
         <div className="col-span-1 text-center mt-2 font-bold">
           <p>Full Stack Developer</p>
         </div>
